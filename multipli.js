@@ -6,18 +6,22 @@ var div = $("#tableau");
 
 
 
-$("#tableau").append("<table border='2px'>");
+$("#tableau").append("<table>");
 
-	$("#tableau").append("<tr>");
 
 	for(var i = 0; i < tab.length; i++) {
-		$("#tableau").append("<td>"+tab[i]+"</td>");
-	}
-	for (var i = 0; i < tab1.length; i++) {
 		$("#tableau").append("<tr>");
-		$("#tableau").append("<td>"+tab1[i]+"</td> </tr>");
+		$("#tableau").append("<td>"+tab[i]+"</td>");
+	
 
+	for (var f = 0; f < tab1.length; f++) {
+		$("#tableau").append("<tr>");
+		$("#tableau").append("<td>"+tab1[f]+"</td> </tr>");
+
+		$("#tableau").append("<td>" + i*f + "</td>");
 	}
+	}
+
 
 	$("#tableau").append("</tr>");
 $("#tableau").append("</table>");
