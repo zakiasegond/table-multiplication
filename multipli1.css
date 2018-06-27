@@ -1,0 +1,41 @@
+th, td{
+	border: 2px solid;
+}
+
+.pink{
+	background-color: pink;
+}
+
+.red{
+	background-color: red;
+}
+
+.table{
+	margin: auto;
+}
+
+#maths{
+	text-align: center;
+	font-size: 50px;
+}  
+}
+
+#mult{
+	text-align: center;
+	
+}  
+
+#div{
+	text-align: center;
+	
+}  
+
+#more{
+	text-align: center;
+	
+}  
+
+#less{
+	margin: center;
+	
+}  
